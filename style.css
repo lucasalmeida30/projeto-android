@@ -1,0 +1,232 @@
+#charset "UTF-8";
+
+*{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+body{
+    background-color: #c5ebd6;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'beba-neu';
+    src: url(bebas_neue/BebasNeue-Regular.ttf)format('truetype');
+}
+
+@font-face{
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('truetype');
+}
+
+header{
+   background-image: linear-gradient(to top ,#05381C, #063D1E, #0C4D29, #197040, #258E54, #2CA061););
+   min-height: 150px;
+   padding-top: 40px;
+   display: block;
+}
+
+header > h1{
+    font-family: 'beba-neu', cursive;
+    font-weight: normal;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+    margin-top: 12px;
+}
+header > p{
+   font-family: Arial, Verdana, Helvetica, sans-serif;
+   color: white;
+   font-size: 1.2em;
+   margin: auto;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 50px;
+   max-width: 600px;
+   text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+   text-align: center;
+}
+nav{
+    margin-top: 0px;
+    padding: 10px;
+    display: block;
+    box-shadow: 0px 7px 7px rgb(0 0 0 / 19%);
+}
+nav > a{
+    font-family: arial , verdana, helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    color: #83e1ad;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover{
+    background-color: #2FA866;
+    color: #063D1E;
+    border-radius: 8px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+}
+main > h1{
+    font-family: 'android';
+    font-weight: normal;
+    font-size: 1.8em;
+    color: rgba(0, 43, 13, 0.87);
+    margin-top: 0px;
+}
+main > p{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main > h2{
+    font-family: 'android';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-indent: 8px;
+    color: rgba(0, 43, 13, 0.87);
+    background-image: linear-gradient(to right, #86E1AF, #A2E9C2, #D5F5E3, #F3FCF7, white);
+}
+
+main img{
+    width: 100%;
+}
+
+main > #pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+    
+span{
+    font-weight: bold;
+    color: #1A5C37;
+}
+
+p > a{
+    text-decoration: none;
+    color: rgb(0, 48, 0);
+    font-weight: bold;
+    padding: 3px;
+}    
+
+p > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+strong{
+    color: #1A5C58;
+    background-color: #83E1AD;
+}
+
+strong > a{
+    text-decoration: none;
+    color: #1A5C58;
+    background-color: #83E1AD;
+    padding: 3px;
+}
+
+strong > a:hover{
+    text-decoration: underline;
+}
+
+div.video{
+    background-color:#063D1E;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+aside{
+    background-color: #83e1ad;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
+    display: block;
+    
+}
+aside > h3{
+    background-color: #1a5c37;
+    color: white;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > p{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 15px;
+}
+
+main > p#final{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+footer{
+    background-color:#063d1e;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px
+}
+
+
